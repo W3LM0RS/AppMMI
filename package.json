@@ -1,0 +1,15 @@
+{
+  "name": "appmmi",
+  "version": "1.0.0",
+  "description": "Gestion de brasserie : stocks, achats, ventes, production et calcul des coûts",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestion Brasserie</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍺</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🍺 Gestion Brasserie</div>
+    <nav id="nav">
+      <a href="#dashboard">Tableau de bord</a>
+      <a href="#beers">Bières</a>
+      <a href="#ingredients">Matières premières</a>
+      <a href="#productions">Production</a>
+      <a href="#purchases">Achats</a>
+      <a href="#sales">Ventes</a>
+      <a href="#movements">Mouvements</a>
+    </nav>
+  </header>
+  <main id="view"></main>
+  <dialog id="modal"><form method="dialog" id="modal-form"></form></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
